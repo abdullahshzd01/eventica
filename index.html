@@ -12,6 +12,31 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+        
+        <style>
+            /* body {font-family: Verdana, sans-serif;} */
+            .mySlidesx {
+                display: none;
+            }
+
+            /* Slideshow container */
+            .slideshow-container {
+                /* max-width: 100%; */
+                position: relative;
+                margin: auto;
+            }
+
+            /* Fading animation */
+            .fade {
+                animation-name: fade;
+                animation-duration: 1.5s;
+            }
+
+            @keyframes fade {
+                from {opacity: .4} 
+                to {opacity: 1}
+            }
+        </style>
     </head>
 
     <body id="top">
@@ -53,7 +78,7 @@
                 <header id="header" class="hoc clear">
                     <div id="logo" class="fl_left">
                         <!-- <h1><a href="#"><img src="images/logo/logo6.png" alt="">Eventica</a></h1> -->
-                        <h1><a href="index.html"><img src="images/logo/logo6.png" alt=""></a></h1>
+                        <h1><a href="index.html"><img src="images/logo/logo8.png" alt=""></a></h1>
                     </div>
 
                     <nav id="mainav" class="fl_right"> 
@@ -187,24 +212,24 @@
             <div class="clear"></div>
             </main>
         </div>
-    
+
         <!-- ################################################################################################ -->
         <div class="bgded overlay" style="background-image:url('images/basic/main3.jpg');">
             <figure class="hoc container clear imgroup"> 
-            <!-- ################################################################################################ -->
-            <figcaption class="sectiontitle">
-                <p class="nospace font-xs">View our past to plan your future</p>
-                <p class="heading underline font-x2">Gallery</p>
-            </figcaption>
-            <ul class="nospace group">
-                <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/wedding2.jpg" alt=""></a></li>
-                <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/wedding2.jpg" alt=""></a></li>
-                <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/wedding2.jpg" alt=""></a></li>
-                <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/wedding2.jpg" alt=""></a></li>
-                <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/wedding2.jpg" alt=""></a></li>
-                <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/wedding2.jpg" alt=""></a></li>
-            </ul>
-            <!-- ################################################################################################ -->
+                <!-- ################################################################################################ -->
+                <figcaption class="sectiontitle">
+                    <p class="nospace font-xs">View our past to plan your future</p>
+                    <p class="heading underline font-x2">Gallery</p>
+                </figcaption>
+                <ul class="nospace group">
+                    <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/wedding2.jpg" style="width: 350px; height: 235px;" alt=""></a></li>
+                    <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/wedding1.jpg" style="width: 350px; height: 235px;" alt=""></a></li>
+                    <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/wedding3.jpg" style="width: 350px; height: 235px;" alt=""></a></li>
+                    <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/corporate1.jpg" style="width: 350px; height: 235px;" alt=""></a></li>
+                    <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/social1.jpg" style="width: 350px; height: 235px;" alt=""></a></li>
+                    <li class="one_third"><a class="imgover" href="pages/gallery.html"><img src="images/basic/wedding5.jpg" style="width: 350px; height: 235px;" alt=""></a></li>
+                </ul>
+                <!-- ################################################################################################ -->
             </figure>
             <!-- ################################################################################################ -->
             </section>
@@ -232,7 +257,7 @@
                 </li>
                 <li class="one_third">
                     <figure><div class="imgover"><img src="images/team/RelationManager.jpg" alt=""></div>
-                        <figcaption><strong>Dua Bukhari</strong> <em>Relation Manager</em></figcaption>
+                        <figcaption><strong>Dua Bukhari</strong> <em>Director marketing</em></figcaption>
                     </figure>
                 </li>
             </ul>
@@ -269,16 +294,79 @@
                     <p class="nospace font-xs">See what our customers have to say about us</p>
                     <p class="heading underline font-x2">Testimonials</p>
                 </div>
-                <article class="btmspace-80">
-                    <blockquote>Pellentesque ipsum pede malesuada non vulputate at euismod et lorem nullam tincidunt urna eget nisl eleifend vulputate sed vitae risus sed enim fermentum venenatis sed augue eros tempor sit amet.</blockquote>
-                    <figure class="clear"><img src="images/demo/60x60.png" alt="">
-                    <figcaption>
-                        <h6 class="heading">Ashar Majhoka</h6>
-                        <!-- <em>CEO</em> -->
-                    </figcaption>
-                    </figure>
-                </article>
-                <footer class="center"><a class="btn" href="#">More Testimonials</a></footer>
+
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <article class="btmspace-80">
+                            <blockquote>We couldn't have asked for a better partner for our trade show than eventica. They understood our brand and objectives and delivered an amazing experience that generated leads and buzz. The attention to detail and professionalism were top-notch.</blockquote>
+                            <!-- <figure class="clear"><img src="images/demo/60x60.png" alt=""> -->
+                            <figcaption>
+                                <h6 class="heading">Ashar Majoka</h6>
+                                <!-- <em>CEO</em> -->
+                            </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="mySlides fade">
+                        <article class="btmspace-80">
+                            <blockquote>Thanks to the amazing team at eventica, our conference was a huge success! From the seamless logistics to the engaging content, everything was executed flawlessly. Highly recommended!</blockquote>
+                            <!-- <figure class="clear"><img src="images/demo/60x60.png" alt=""> -->
+                            <figcaption>
+                                <h6 class="heading">Abdullah Shahzad</h6>
+                                <!-- <em>CEO</em> -->
+                            </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="mySlides fade">
+                        <article class="btmspace-80">
+                            <blockquote>Our sports event was a huge success, thanks to the expert planning and execution from eventica. They helped us engage our fans and generate revenue in a way that exceeded our expectations. Highly recommended!</blockquote>
+                            <!-- <figure class="clear"><img src="images/demo/60x60.png" alt=""> -->
+                            <figcaption>
+                                <h6 class="heading">Hassam Saeed</h6>
+                                <!-- <em>CEO</em> -->
+                            </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="mySlides fade">
+                        <article class="btmspace-80">
+                            <blockquote>We couldn't be happier with the way our wedding turned out, thanks to eventica. They took care of every detail and made sure that our special day was everything we dreamed of and more. Highly professional and easy to work with!</blockquote>
+                            <!-- <figure class="clear"><img src="images/demo/60x60.png" alt=""> -->
+                            <figcaption>
+                                <h6 class="heading">Faizan Khan</h6>
+                            </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+
+                <script>
+                    let slideIndex = 0;
+                    showSlides();
+                    
+                    function showSlides() {
+                        let i;
+                        let slides = document.getElementsByClassName("mySlides");
+
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                        }
+
+                        slideIndex++;
+
+                        if (slideIndex > slides.length) {slideIndex = 1}    
+                        // for (i = 0; i < dots.length; i++) {
+                        //     dots[i].className = dots[i].className.replace(" active", "");
+                        // }
+
+                        slides[slideIndex-1].style.display = "block";  
+                        // dots[slideIndex-1].className += " active";
+                        setTimeout(showSlides, 4000); // Change image every 2 seconds
+                    }
+                </script>
+
+                <!-- <footer class="center"><a class="btn" href="#">More Testimonials</a></footer> -->
             </section>
         </div>
         <!-- ################################################################################################ -->
